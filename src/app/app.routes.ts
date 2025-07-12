@@ -1,3 +1,9 @@
+import { Component } from '@angular/core';
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { MansiComponent } from './mansi/mansi.component';
+
+export const routes: Routes = [
+   {
+     path:'mansi' , component:MansiComponent      }
+];
