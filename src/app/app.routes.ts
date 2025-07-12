@@ -1,3 +1,10 @@
 import { Routes } from '@angular/router';
 
-export const routes: Routes = [];
+import { AnamikaComponent } from './anamika/anamika.component';
+
+export const routes: Routes = [
+    {
+        path:'anamika', component:AnamikaComponent
+    },
+   
+];
